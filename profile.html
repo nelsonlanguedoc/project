@@ -2,54 +2,51 @@
 <html>
 <head>
   <title>Profile</title>
-  <link rel="stylesheet" type="text/css" href="profilestyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="public/stylesheets/profilestyle.css">
 </head>
 <body>
 
 <p>Create Profile</p>
   <form style="background-color:rbga(255,0,0,0.5);" method="POST" action="/profile/edit">
 
-   
-   <input type="text" name="Email" placeholder="Email">
+    <input type="text" class="form-control" placeholder="First Name" id="firstname">
 
-   
-   <input type="password" name="password" placeholder="password">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <input type="text" class="form-control" placeholder="Last Name" id="lastname">
     
     <br>
-    
+
+    <div class="form-group">
+      <label class="sr-only" for="exampleInputEmail3">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label class="sr-only" for="exampleInputPassword3">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+    </div>
+
+   <br>
+   <label><span>Profile Picture<span></label>
+   <input class="profile-picture" type="file" name="profile-picture" id="profile-picture" />
+
     <br>
 
-    
-    <input type="text" name="firstname" placeholder="First Name">
-  
-    <input type="text" name="lastname" placeholder="Last Name">
-
-    <br>
-
-    <form action="verify.php" method="get" enctype="multipart/form-data">
-    <label><span>Profile Picture<span></label>
-    <input type="file" name="avatar" id="avatar" />
-
-    <br>
-
-    <select>
-      <optgroup >
-        <option>Male</option>
-      </optgroup>
-      <optgroup>
-        <option>Female</option>
-      </optgroup>
+    <select class="form-control" id="male-female">
+      <option>Male</option>
+      <option>Female</option>
     </select>
 
-
-    
-    
-
     <br>
-    
 
-    <input type="submit" name="submit changes">
-</form>
+    <button id="submitbutton" type="button" class="btn btn-info" name="submit">submit</button>
+
+    </form>
 
   </form>
 </body>

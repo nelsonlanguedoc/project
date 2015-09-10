@@ -10,7 +10,7 @@ img {
 }
 form {
   text-align: center;
-  letter-spacing: -1.25px;
+  letter-spacing: -1px;
   font font-weight: 50%;
   line-height: 1;
   color:#FFFFFF;
@@ -23,11 +23,9 @@ form {
   display: inline-block;
   margin-left: 20%;
   margin-right: 25%;
-  margin-top: 8%;
+  margin-top: 4%;
   background: rgb(34,34,34); 
   background: rgba(34,34,34,0.75);
-
-
 }
 p {
  text-align: center;
@@ -36,10 +34,48 @@ p {
   line-height: 1;
   color:#404040;
   position: relative;
-  top: 126.5px;
+  top: 77px;
   right: 275px;
   font-family: helvetica, arial, sans-serif;
   font-size: 35px;
   margin-bottom: 20.5px;
+}
+#profile-picture {
+  margin-left: 275px;
+}
+#submitbutton{
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  letter-spacing: -1px;
+  font font-weight: 50%;
+  line-height: .5;
+
+}
+#firstname{
+  float: left;
+  width: 250px;
+  color: #404040;
+  text-align:left;
+  margin-top: 10px;
+
+}
+#lastname {
+  width: 250px;
+  color: #404040;
+  text-align: left;
+
+}
+#male-female {
+  width: 90px;
+  text-align: center;
+  margin-left: 43.5%;
+}
+.form-control{
+  margin-left: 225px;
+  width: 250px;
+  
+}
+#exampleInputEmail3 {
+  top: -15px;
 }
 
