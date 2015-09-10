@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Create Profile</h1>
+<p>Create Profile</p>
   <form style="background-color:rbga(255,0,0,0.5);" method="POST" action="/profile/edit">
 
    
@@ -26,6 +26,12 @@
 
     <br>
 
+    <form action="verify.php" method="get" enctype="multipart/form-data">
+    <label><span>Profile Picture<span></label>
+    <input type="file" name="avatar" id="avatar" />
+
+    <br>
+
     <select>
       <optgroup >
         <option>Male</option>
@@ -35,11 +41,15 @@
       </optgroup>
     </select>
 
+
+    
+    
+
     <br>
     
 
-    <input type="submit" name="submit">
-
+    <input type="submit" name="submit changes">
+</form>
 
   </form>
 </body>

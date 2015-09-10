@@ -10,8 +10,8 @@ img {
 }
 form {
   text-align: center;
-  letter-spacing: +2px;
-  font font-weight: 300%;
+  letter-spacing: -1.25px;
+  font font-weight: 50%;
   line-height: 1;
   color:#FFFFFF;
   background-color: #0A0500;
@@ -19,23 +19,27 @@ form {
   width:700px;
   font-family: helvetica, arial, sans-serif;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 25px;
   display: inline-block;
   margin-left: 20%;
   margin-right: 25%;
-  margin-top: 10%;
+  margin-top: 8%;
   background: rgb(34,34,34); 
   background: rgba(34,34,34,0.75);
 
 
 }
-h1 {
+p {
  text-align: center;
   letter-spacing: -1.75px;
   font font-weight: 50%;
   line-height: 1;
   color:#404040;
   position: relative;
-  top: 150px;
-  right: 275px
+  top: 126.5px;
+  right: 275px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 35px;
+  margin-bottom: 20.5px;
 }
+
